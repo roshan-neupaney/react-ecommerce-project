@@ -1,0 +1,46 @@
+.collapse{
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.signInContainer{
+  margin: auto;
+  padding: 0 0 0 50px;
+  width: 500px;
+  height: 555px;
+  border: 2px solid black;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.mb-3{
+  margin: 10px;
+  width:350px;
+  /* height:auto; */
+  /* display:flex; */
+  /* flex-direction: column; */
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.form-check{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.forgetPassword{
+  margin: 0 90px;
+}
+
+.signIn{
+  width: 80px;
+}
+
+.card img{
+  height: 12rem;
+  width: 18rem;
+}
