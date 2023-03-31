@@ -25,11 +25,14 @@ export default function Navbar(props) {
           <Link className="nav-link" to="/contact">Contact</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/signIn">Sign In <i class="fa-solid fa-arrow-right-to-bracket"></i></Link>
+          <Link className="nav-link" to="/signIn">Sign In <i className="fa-solid fa-arrow-right-to-bracket"></i></Link>
         
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/myprofile">Profile</Link>
+          <Link className="nav-link" to="/myprofile"> <i className="fa-regular fa-user"></i></Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/cart"> <i className="fa-solid  fa-cart-shopping"></i></Link>
         </li>
       </ul>
     </div>
