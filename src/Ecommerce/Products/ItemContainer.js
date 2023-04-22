@@ -26,7 +26,6 @@ export default function ItemContainer(props) {
     .get(props.url)
     .then((response) => {
       setData(response.data)
-  // console.log(data.price)
 
     })
     .catch((error) => {
