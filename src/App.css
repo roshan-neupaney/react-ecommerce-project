@@ -309,4 +309,37 @@
   font-size: 1 rem;
 }
 
+.productTitleheader{
+  height: 7vh;
+  width: 100vw;
+  background-color: #878a8e;
+  display: flex;
+  align-items: center;
+}
+.productTitleheader h4{
+  color: white;
 
+}
+
+.productBox{
+  margin: auto;
+  border: 2px solid red;
+  display: flex;
+  height: 90vh;
+  width: 65vw;
+  justify-content: center;
+}
+
+.imagearea{
+  display: flex;
+  width: 40%;
+  height: 100%;
+  background-color: coral;
+}
+
+.productDescription{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  background-color: gold;
+}

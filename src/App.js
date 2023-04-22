@@ -8,6 +8,7 @@ import Products from "./Ecommerce/Products";
 import Contact from "./Ecommerce/Contact";
 import Signin from "./Ecommerce/Signin";
 import SingleProductpage from "./Ecommerce/Products/SingleProductpage";
+// import Mypage from "./Ecommerce/Products/Mypage";
 
 export default function App(props) {
   return (
@@ -20,6 +21,7 @@ export default function App(props) {
           <Route exact path="/products" element={<Products />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/signin" element={<Signin />}></Route>
+          {/* <Route exact path="/singleProduct" element={<Mypage/>}></Route> */}
           <Route exact path="/singleProduct" element={<SingleProductpage/>}></Route>
         </Routes>
       </BrowserRouter>

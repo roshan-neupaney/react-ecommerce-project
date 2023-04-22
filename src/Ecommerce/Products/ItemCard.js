@@ -1,19 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SingleProductpage from "./SingleProductpage";
 
 export default function ItemCard(props) {
-  // const rendering=()=>{
-  //   if(props.rangeValue>=props.price){
-  //     return true;
-  //   }
-  //   else return false;
-  // }
-  // console.log(props.price)
+  const clicked = ()=>{
+    
+  }
 
   return (
     <>
       <Link target="_blank" className="productLinks links" to="/singleProduct">
-        <div className="card product-card my-3">
+        <div className="card product-card my-3" onClick={()=>clicked()}>
           <div className="card-body">
             <img src={props.image} alt="" />
             <div className="card-textuals">
